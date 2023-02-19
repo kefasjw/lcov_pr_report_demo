@@ -12,7 +12,7 @@ jobs:
     - uses: kefasjw/hello-world-javascript-action@main
       with:
         lcov-file: coverage/lcov.info
-        comment-title: 'asdasd'
+        comment-title: 'Todo App'
         all-files-minimum-coverage: 78
         changed-files-minimum-coverage: 90
         github-token: ${{ secrets.GITHUB_TOKEN }}
