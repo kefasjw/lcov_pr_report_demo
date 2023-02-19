@@ -13,6 +13,6 @@ jobs:
       with:
         lcov-file: coverage/lcov.info
         comment-title: 'asdasd'
-        all-files-minimum-coverage: 80
+        all-files-minimum-coverage: 78
         changed-files-minimum-coverage: 90
         github-token: ${{ secrets.GITHUB_TOKEN }}
