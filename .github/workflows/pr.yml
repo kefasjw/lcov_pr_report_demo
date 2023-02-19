@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    permissions: #write-all
+    permissions:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
