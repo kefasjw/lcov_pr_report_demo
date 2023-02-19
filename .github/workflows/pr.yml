@@ -15,4 +15,5 @@ jobs:
         comment-title: 'Todo App'
         all-files-minimum-coverage: 78
         changed-files-minimum-coverage: 90
+        artifact-name: 'todo-app-coverage'
         github-token: ${{ secrets.GITHUB_TOKEN }}
