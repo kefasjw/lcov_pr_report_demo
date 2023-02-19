@@ -7,7 +7,8 @@ on:
 
 jobs:
   test:
-    # permissions: write-all
+    permissions: #write-all
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
