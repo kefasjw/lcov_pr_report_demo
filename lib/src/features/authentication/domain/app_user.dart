@@ -18,5 +18,5 @@ class AppUser {
   int get hashCode => uid.hashCode ^ email.hashCode;
 
   @override
-  String toString() => 'AppUser(uid: $uid, email: $email)';
+  String toString() => 'AppUser(uid: $uid, email: $email)z';
 }
