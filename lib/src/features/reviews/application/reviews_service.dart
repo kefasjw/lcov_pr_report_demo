@@ -18,7 +18,7 @@ class ReviewsService {
     required Review review,
   }) async {
     final user = ref.read(authRepositoryProvider).currentUser;
-    // * we should only call this method when the user is signed in
+    // * we should only call this method when the user is signed in .
     assert(user != null);
     if (user == null) {
       throw AssertionError(
