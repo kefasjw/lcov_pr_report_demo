@@ -8,14 +8,14 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    permissions: write-all
+    # permissions: write-all
     steps:
     - uses: actions/checkout@v3
 
     - name: Setup LCOV
       uses: hrishikesh-kadam/setup-lcov@v1
 
-    - uses: kefasjw/lcov-pull-request-report@bump-node-version
+    - uses: kefasjw/lcov-pull-request-report@main
       with:
         lcov-file: coverage/lcov.info
         working-directory:
