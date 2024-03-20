@@ -15,7 +15,7 @@ jobs:
     - name: Setup LCOV
       uses: hrishikesh-kadam/setup-lcov@v1
 
-    - uses: kefasjw/lcov-pull-request-report@v1
+    - uses: kefasjw/lcov-pull-request-report@bump-node-version
       with:
         lcov-file: coverage/lcov.info
         working-directory:
