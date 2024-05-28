@@ -17,8 +17,3 @@ dev_dependencies:
     sdk: flutter
   freezed: ^2.3.2
   lint: ^2.2.0
-
-flutter:
-  uses-material-design: true
-  assets:
-    - assets/icons/
