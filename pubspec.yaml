@@ -1,5 +1,4 @@
 name: bfi_design_system_1
-publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
