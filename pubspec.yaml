@@ -1,15 +1,24 @@
 name: ecommerce_app
 description: Flutter eCommerce app (part of the Complete Flutter Course Bundle)
 
-# Prevent accidental publishing to pub.dev.
-publish_to: 'none'
-
-version: 1.0.0+1
-
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: 6.1.0
+  flutter_svg: ^2.0.10+1
+  freezed_annotation: ^2.2.0
+  google_fonts: 6.1.0 # ^6.2.0 require flutter version newer than 3.13.9
+
+dev_dependencies:
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  lint: ^2.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
