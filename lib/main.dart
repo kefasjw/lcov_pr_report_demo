@@ -58,3 +58,5 @@ void registerErrorHandlers(ErrorLogger errorLogger) {
     );
   };
 }
+
+// test: node24 upgrade verification
